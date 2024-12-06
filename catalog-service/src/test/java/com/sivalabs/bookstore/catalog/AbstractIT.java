@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Import;
 // @Import(ContainersConfig.class)
 public abstract class AbstractIT {
     // @LocalServerPort
-    int port;
-
-    // @BeforeEach
-    void setUp() {
-        // RestAssured.port = port;
-    }
+//    int port;
+//
+//    // @BeforeEach
+//    void setUp() {
+//        // RestAssured.port = port;
+//    }
 }

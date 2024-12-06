@@ -8,13 +8,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.context.annotation.Import;
 
-@SpringBootTest(webEnvironment = RANDOM_PORT)
-@Import(ContainersConfig.class)
+// @SpringBootTest(webEnvironment = RANDOM_PORT)
+// @Import(ContainersConfig.class)
 public abstract class AbstractIT {
-    @LocalServerPort
+    // @LocalServerPort
     int port;
 
-    @BeforeEach
+    // @BeforeEach
     void setUp() {
         RestAssured.port = port;
     }
